@@ -1,0 +1,83 @@
+body {
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 14px;
+    color: #87968e;
+    background: rgba(200, 66, 66, 0.2);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin-top: 30px;
+    font-size: 42px;
+    color: aquamarine;
+}
+
+.header .intro {
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.header .btns {
+    list-style: none;
+    margin: 40px 0;
+}
+
+.header .btns li {
+    display: inline-block;
+}
+
+.active {
+    opacity: 0.9;
+}
+
+.btns a {
+    display: inline-block;
+    margin: 3px;
+    padding: 6px 14px;
+    background: #bfa;
+    color: #444;
+    border-radius: 10px;
+}
+
+.btns a:hover,
+.btn:hover,
+.btn01:hover {
+    background: #7cf55e;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #bfa;
+    color: #444;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.btn01 {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 6px 14px;
+    background: #bfa;
+    color: #444;
+}
+
+.footer {
+    margin-top: 30px;
+}

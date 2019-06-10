@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的偶像</title>
+    <style>
+        blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+            font-size: 14px;
+            color: #87968e;
+            background: rgba(200, 66, 66, 0.2);
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header h1 {
+            margin-top: 30px;
+            font-size: 42px;
+            color: aquamarine;
+        }
+
+        .header .intro {
+            margin-top: 10px;
+            opacity: 0.6;
+        }
+
+        .header .btns {
+            list-style: none;
+            margin: 40px 0;
+        }
+
+        .header .btns li {
+            display: inline-block;
+        }
+
+        .active {
+            opacity: 0.9;
+        }
+
+        .btns a {
+            display: inline-block;
+            margin: 3px;
+            padding: 6px 14px;
+            background: #bfa;
+            color: #444;
+            border-radius: 10px;
+        }
+
+        .btns a:hover,
+        .btn:hover,
+        .btn01:hover {
+            background: #7cf55e;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #bfa;
+            color: #444;
+            margin-top: 30px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        .btn01 {
+            border-radius: 10px;
+            margin-left: 10px;
+            padding: 6px 14px;
+            background: #bfa;
+            color: #444;
+        }
+
+        .footer {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header container">
+        <h1>我的偶像</h1>
+        <div class="intro">
+            一句话偶像介绍
+        </div>
+        <ul class="btns">
+            <li><a class="active" href="#">杨超越</a></li>
+            <li><a href="#">孟美岐</a></li>
+            <li><a href="#">吴宣仪</a></li>
+            <li><a href="#">李紫婷</a></li>
+            <li><a href="#">紫宁</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <img src="images/孟美岐.jpg" width="400px" height="450px" alt="孟美岐">
+        <a class="btn" href="#">pick</a>
+        <a class="btn" href="#">孟美岐</a>
+    </div>
+
+    <div class="footer">
+        作者：<a class="btn01" href="#">宋旭</a>
+    </div>
+</body>
+</html>
